@@ -12,4 +12,7 @@
 ## 使用技術・ツール
 - HTML/CSS (ページ作成・デザイン)
 - Visual Studio Code (コーディング・編集)
-- GitHub/GitHub Pages(公開)
+- GitHub/GitHub Pages (公開)
+
+## 公開ページ
+https://izshz.github.io/my-webpage
