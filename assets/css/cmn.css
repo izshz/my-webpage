@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@media (max-width : 640px) {
+
+}
+/* 共通 */
+html,
+body{
+    font-family: 'Jomhuria', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Zen Antique', serif;
+    font-weight: 400;
+    color: #333;
+    font-size: 16px;
+}
+
+/*ヘッダー*/
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end; /* 右寄せ */
+    align-items: center; /* 縦方向の中央揃え */
+
+}
+.header__menu{
+    display: flex;
+    justify-content: flex-end;    
+    padding: 7px;
+    font-family: 'Jomhuria';
+    font-size: 80px;
+    color: #ffffff;
+}
+.header__menu li {
+    margin-right: 40px; /* メニュー項目の間隔を設定 */
+}
+/*Kv*/
+.kv{
+    background-image: url(../images/ゼルダTop.jpg);
+    background-size: cover;
+    background-position: 0,0;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kv__jp{
+    font-family: 'Zen Antique';
+    font-size: 82px;
+    line-height: 1em;
+}
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer__copy {
+    font-size: 12px;
+    opacity: 0.7;
+  }
+  
+  .profile__sns {
+    list-style: none;
+    padding: 10px 0;
+  }
+  
+  .profile__sns li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .profile__sns a {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .profile__sns a:hover {
+    color: #55acee; /* Twitter blue */
+  }
+  
+  /* Additional styles */
+  .fett {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
