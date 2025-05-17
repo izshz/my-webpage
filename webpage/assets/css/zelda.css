@@ -1,0 +1,183 @@
+@charset "UTF-8";
+@media (max-width : 640px) {
+
+}
+/* 共通 */
+body{
+    background-image: url(../images/zelda/img_background1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+section{
+    padding: 80px 0;
+}
+.inner{
+    width: 100%;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h3,p{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+h2{
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: 40px;    /*margin: 0 0 56px*/
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 30px;
+}
+h3{
+    font-weight: bold;
+    font-size: 60px;
+}
+p{
+    font-size: 40px;
+    padding-top: 7px;
+}
+span{
+    text-decoration: underline;
+    text-decoration-thickness: 0.5em;
+    text-underline-offset: -0.2em;
+    text-decoration-skip-ink: none;
+}
+img{
+    border-radius: 20px;
+    width: 43%;
+}
+/*KV*/
+.kv{
+    background-image: url(../images/zelda/img_kv1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/*About*/
+#About .inner{
+    max-width: 1800px;
+}
+.about{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 120px;
+}
+.about__copy h2{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.about__items{
+    padding-top: 40px;
+}
+.about__items p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/*Charm*/
+#Charm .inner{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.charm img{
+    width: 43%;
+    height: auto;
+    border-radius: 20px;
+}
+.charm iframe{
+    text-align: center;
+}
+.charm{
+    text-align: center;
+}
+.charm p{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.charm__synthesis{
+    margin-bottom: 60px;
+}
+.charm__gliding{
+    margin-bottom: 60px;
+}
+.charm__playback{
+    margin-bottom: 60px;
+}
+.charm__partner{
+    margin-bottom: 60px;
+}
+.charm__synthesis span{
+    text-decoration-color:rgb(176, 196, 245);
+}
+.charm__gliding span{
+    text-decoration-color: aquamarine;
+}
+.charm__playback span{
+    text-decoration-color:rgb(248, 243, 139);
+}
+.charm__partner span{
+    text-decoration-color:rgb(255, 132, 132);
+}
+.charm__open span{
+    text-decoration-color:rgb(150, 248, 173);
+}
+.charm__partner img{
+    width: 30%;
+}
+.charm__chr1{
+    display: flex;
+    justify-content: center;
+    gap:200px;
+    align-items: center;
+}
+.charm__images{
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+}
+/*やりこみ要素*/
+#Enjoy .inner{
+    max-width: 1200px;
+}
+.enjoy{
+    padding-top: 100px;
+    text-align: center;
+}
+.enjoy h3{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.enjoy p{
+    margin-bottom: 20px;
+}
+.enjoy img{
+    margin-bottom: 90px;
+}
+.enjoy__cologu span{
+    text-decoration-color:#54b678;
+}
+.enjoy__items{
+    margin-bottom: 20px;
+}
+.enjoy_dungeon img{
+    height: auto;
+}
+iframe{
+    width: 400px;
+    height: 250px;
+}
+.form{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
